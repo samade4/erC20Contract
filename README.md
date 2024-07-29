@@ -1,6 +1,6 @@
 # TokenProject Smart Contract
 
-This is a Solidity smart contract written to create an ERC20 token called MyToken (MTF). The contract inherits @openzeppelin/contracts/token/ERC20/ERC20.sol. It includes functionalities for minting, burning, and transferring tokens. It is designed to be deployed on the Ethereum blockchain.
+This is a Solidity smart contract written to create an ERC20 token called TokenProject (TP). The contract inherits @openzeppelin/contracts/token/ERC20/ERC20.sol. It includes functionalities for minting, burning, and transferring tokens. It is designed to be deployed on the Ethereum blockchain.
 
 
 ## Features
@@ -17,13 +17,13 @@ To deploy the contract, follow these steps:
 
 You can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
-Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., MyToken.sol). Copy and paste the contract code into the file
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., TokenProject.sol). Copy and paste the contract code into the file
 
 
 
-To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.0" (or another compatible version), and then click on the "Compile MyToken.sol" button.
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.0" (or another compatible version), and then click on the "Compile TokenProject.sol" button.
 
-Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and pick any environment of your choice you will like to deploy to.
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "TokenProject" contract from the dropdown menu, and pick any environment of your choice you will like to deploy to.
 You should interact on remix local environment or pick injected provider to deploy to either testnet or mainnet (this is at a cost). It is important you know what you're doing to deploy to mainnet.
 
 To deploy click on the "Deploy" button.
