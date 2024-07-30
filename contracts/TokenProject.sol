@@ -5,11 +5,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract TokenProject is ERC20, Ownable {
-    address private _owner;
-
     constructor() ERC20("TokenProject", "TP") Ownable(msg.sender) {
         _mint(msg.sender, 1000000000 * 10 ** decimals());
-        _owner = msg.sender;
     }
 
     function mint(address to, uint256 amount) public onlyOwner {

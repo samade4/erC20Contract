@@ -52,7 +52,7 @@ Adedayo Samuel
 
 ## Loom(video) walkthrough
 ```bash
-https://www.loom.com/share/54242e434f0d4bfda027de05de417905?sid=b5d47616-d634-4ad6-8c94-5db627bef5e2
+https://www.loom.com/share/6c6222f95b034517b8e402d3a06b242d?sid=fe7948e3-069d-4f0d-9009-9fd7d387f727
 ```
 
 ### License
